@@ -1,0 +1,38 @@
+# Ignore build files
+build/
+*.o
+*.obj
+*.exe
+*.log
+*.out
+
+# VSCode config (optional)
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Ignore CMake and Ninja artifacts
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+.ninja_log
+.ninja_deps
+
+# Ignore lib folders containing external Git repositories
+Machine Learing in c++/lib/eigen/
+Machine Learing in c++/lib/xtensor/
+Machine Learing in c++/lib/xtensor-blas/
+Machine Learing in c++/lib/xtl/
+
+
+# Ignore large or unneeded folders
+Machine Learing in c++/lib/
+Machine Learing in c++/build/
+Machine Learing in c++/.vscode/
+gpt_pth/
+*.json
+*.pth
+*.bin
